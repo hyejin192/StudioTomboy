@@ -948,6 +948,9 @@
   #particles-js {
     height: 250vh;
   } 
+  #footer {
+    height: 372px;
+  }
   .footer ul li a {font-size: 10px;}
   .txtcontainer {height: 430px;}
   .cover:nth-child(1) {
