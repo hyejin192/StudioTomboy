@@ -806,6 +806,7 @@
     right: 505px;
     bottom: 223px;
   }
+  #one #eff .stext h1 {font-size:20px;}
 
 }
 @media (max-width:600px) {
