@@ -1,6 +1,55 @@
 @charset "UTF-8";
 @import url(reset.css);
+.no-flexboxlegacy .ie {
+  display: block;
+}
 
+
+.ie {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20vw 10vw;
+  z-index: 500;
+  background-color: #202553;
+}
+
+.ie p {
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.ie h2 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.ie h2::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  background-color: #ffffff;
+  animation: underline 1s infinite both alternate;
+}
+
+@keyframes underline {
+  0% {
+      transform: scale(0);
+  }
+
+  100% {
+      transform: scale(1);
+  }
+}
 
 
 #Wrap {
